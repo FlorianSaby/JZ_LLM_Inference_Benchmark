@@ -1,0 +1,5 @@
+{
+  "Text Generation": "/lustre/fsmisc/dataset/HuggingFace_Models",
+  "Embedding": "/lustre/fsmisc/dataset/HuggingFace_Models",
+  "Vision": None
+}

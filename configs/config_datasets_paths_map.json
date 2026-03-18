@@ -1,0 +1,4 @@
+{
+  "sharegpt": "/lustre/fsn1/projects/rech/rxy/unq39gs/test_ray/benchmarks/datasets/ShareGPT_V3_unfiltered_cleaned_split.json",
+  "sonnet": "/lustre/fsn1/projects/rech/rxy/unq39gs/test_ray/benchmarks/datasets/sonnet.txt"
+}
