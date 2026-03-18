@@ -1,4 +1,3 @@
-# JeanZay_llm_inference_benchmark
 # Benchmark Instructions
 
 ## Notes
