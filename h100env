@@ -1,8 +1,6 @@
 # ENVIRONMENT PATH
 ENVIRONMENT_VLLM=/lustre/fshomisc/sup/pub/miniforge/24.9.0/envs/pytorch-gpu-2.7.0+py3.12.10
 SCRIPT_VLLM=scripts/vllm/run_ray_vllm.sh
-ENVIRONMENT_DEEPSPEED=/lustre/fsn1/projects/rech/rxy/unq39gs/benchmarks_h100/inference/inference-JZ/envs/deepspeed-MII-env
-
 
 # ADDITIONAL VARIABLES
 PORT=8000
