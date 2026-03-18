@@ -1,8 +1,6 @@
 # ENVIRONMENT PATH
 ENVIRONMENT_VLLM=/lustre/fshomisc/sup/hpe/pub/miniforge/24.11.3/envs/pytorch-gpu-2.7.0+py3.12.10
 SCRIPT_VLLM=scripts/vllm/run_ray_vllm.sh
-ENVIRONMENT_DEEPSPEED=/lustre/fsn1/projects/rech/rxy/unq39gs/benchmarks_h100/inference/inference-JZ/envs/deepspeed-MII-env
-
 
 # ADDITIONAL VARIABLES
 PORT=8000
@@ -17,7 +15,7 @@ CONDA_PATH="$(conda info --base)/etc/profile.d/conda.sh"
 
 SUPCOMPUTER_NAME="Jean Zay A100"
 PARTITION_NAME="gpu_p5"
-ACCOUNT=sos@a100
+ACCOUNT=rxy@a100
 QOS=qos_gpu_a100-t3 #qos_gpu_h100-dev
 CONSTRAINT=a100
 TIME_LIMIT=2:00:00
