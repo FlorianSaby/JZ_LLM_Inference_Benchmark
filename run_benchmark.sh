@@ -56,7 +56,7 @@ for framework in "${FRAMEWORKS[@]}"; do
         # Extract param count in billions (e.g., 13B → 13)
         param_b=$(basename "$model" | grep -Po '[0-9]+(?=[Bb])')
         # VRAM required in GB
-        VRAM_FACTOR=3.5   # FP16 x2 + safety margin x1.5
+        VRAM_FACTOR=3   # FP16 x2 + safety margin x1.5
         required_vram=$(echo "$VRAM_FACTOR * $param_b" | bc -l)  # Use -l for floating point
 
         # Skip if not enough total VRAM
