@@ -170,7 +170,7 @@ curl -X POST http://$RAY_HEAD_IP:8000/v1/chat/completions \
 
 echo -e "\nInference test complete."
 #############################################
-concurrencies=(50 100 200 300 400 500)
+concurrencies=(50 100 150 200 250 300 350 400 450 500 550 600 650 700 750 800 850 900 950 1000)
 for conc in "${concurrencies[@]}"; do
   echo "======================================="
   echo "Running concurrency level $conc"
