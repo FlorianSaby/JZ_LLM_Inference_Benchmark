@@ -4,7 +4,7 @@ SCRIPT_VLLM=scripts/vllm/run_ray_vllm.sh
 
 # ADDITIONAL VARIABLES
 PORT=8000
-BENCHMARK_FILE=/lustre/fsn1/projects/rech/rxy/unq39gs/test_ray/benchmarks/benchmark_serving.py
+BENCHMARK_FILE=/lustre/fsn1/projects/idris/sos/ssos054/test_ray/benchmarks/benchmark_serving.py
 
 # Modules to load for activating the environment
 MODULES="arch/h100 pytorch-gpu/py3/2.7.0"
@@ -14,7 +14,7 @@ CONDA_PATH="$(conda info --base)/etc/profile.d/conda.sh"
 
 SUPCOMPUTER_NAME="Jean Zay H100"
 PARTITION_NAME="gpu_p6"
-ACCOUNT=rxy@h100
+ACCOUNT=sos@h100
 QOS=qos_gpu_h100-t3 #qos_gpu_h100-dev
 CONSTRAINT=h100
 TIME_LIMIT=2:00:00
